@@ -17,10 +17,10 @@ h1{
 
 .row {
     display: inline-flex;
-    position:center;
+    
 }
 .container{
-    position: center;
+    text-align: center;
 }
 
 
