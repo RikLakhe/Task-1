@@ -1,13 +1,9 @@
 h1{
     color: blue;
-    text-align: center;}
-/* }
-#task1{
-    padding:5px;
-} */
+    text-align: center;
+}
 
 .column{
-    float:left;
     padding: 5px;
     margin-left: 60px;
 }
@@ -19,13 +15,8 @@ h1{
 
 }
 
-/* .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  } */
-/* p{
-    text-align: center;
-    color:red;
-    font-size: 20px;
-} */
+.row {
+    display: inline-flex;
+}
+
+
