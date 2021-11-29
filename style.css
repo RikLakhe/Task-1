@@ -6,6 +6,10 @@ h1{
 .column{
     padding: 5px;
     margin-left: 60px;
+  
+}
+.column img{
+    border-radius: 8px;
 }
 
 .title{
