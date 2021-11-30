@@ -89,3 +89,21 @@ p{
     width: 350px;
     height: 200px;
 }
+.sidebar{
+   
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+     height: 120px;
+     margin-right: 280px;
+     margin-top: 125px;
+     
+    
+}
+.sidebar img{
+    width: 350px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
