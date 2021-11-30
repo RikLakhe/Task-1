@@ -78,3 +78,14 @@ p{
     overflow: hidden;
   
 }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+     
+}
+.footer img{
+    border-radius: 8px;
+    width: 350px;
+    height: 200px;
+}
