@@ -3,6 +3,40 @@ h1{
     text-align: center;
     font-family: "Roboto Condensed";
 }
+body{
+    background-color: #77abd9
+}
+
+.top-nav{
+    
+    height: 60px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color:#4b99de;
+    margin-bottom: 30px;
+    
+    
+}
+.top-nav .contact{
+    margin-right: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+     
+}
+
+.top-nav a:link{color:red;}
+.top-nav a:visited{color:green;}
+.top-nav a:Hover{color:black;}
+.top-nav a:active{color:pink;}
+
+.top-nav img{
+    height:50px;
+    margin-top: 5px;
+    margin-left:20px;
+}
 
 .column{
     padding: 5px;
