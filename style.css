@@ -1,10 +1,10 @@
 h1{
-    color: blue;
+    color: white;
     text-align: center;
     font-family: "Roboto Condensed";
 }
 body{
-    background-color: #77abd9
+    background-color: #5AA6D8;
 }
 /* top navigation*/
 .top-nav{
@@ -16,7 +16,7 @@ body{
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
-    background-color:#4b99de;
+    background-color:#3190CE;
     margin-bottom: 30px;
     
     
@@ -31,7 +31,7 @@ body{
 }
 
 .top-nav .home{
-    margin-right: 1630px;
+    margin-left: 1600px;
     margin-top: 15px;
     text-decoration: none;
     font-size: 20px;
@@ -41,10 +41,10 @@ body{
 
 
 
-.top-nav a:link{color:#e64957;}
-.top-nav a:visited{color:green;}
+.top-nav a:link{color:white;}
+.top-nav a:visited{color:white;}
 .top-nav a:Hover{color:black;}
-.top-nav a:active{color:pink;}
+.top-nav a:active{color:#D88227;}
 
 .top-nav img{
     height:50px;
@@ -65,7 +65,7 @@ body{
 }
 
 .title{
-    color: #e64957;
+    color: white;
     text-align:center;
     font-size: 25px;
 
@@ -82,6 +82,7 @@ body{
 p{
     font-family: "Raleway";
     text-align: center;
+    
     
 }
 .button img{
@@ -208,7 +209,7 @@ p{
        font-size: 25px;
        font-family: "Roboto";
        margin-top: -5px;
-       color: #e64957;
+       color: white;
    }
 
   
@@ -221,7 +222,13 @@ p{
        background-color: #4b99de;
        color:white;
        font-size: 15px;
+       border: 0px;
+      
      
+   }
+   .button:hover{
+       background-color: salmon; 
+       cursor: pointer;
    }
 
    .map-box{
@@ -233,6 +240,7 @@ p{
       border-radius: 8px;
       width: 90%;
       padding: 10px;
+      border: 0px;
   }
   .form #message{
       height: 100px;
